@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bizob2828/alexa-wunderlist#readme",
   "dependencies": {
+    "alexa-sdk": "^1.0.7",
     "bluebird": "^3.4.7",
     "lodash": "^4.17.4",
     "request": "^2.79.0"
