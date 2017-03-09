@@ -7,11 +7,11 @@ A Lambda function to be used as an Alexa skill to add items to list, get items f
 Assumptions:
  * You've added the following environment variables with the appropriate values
 
-`
+```
 WLIST_ID - your id for wunderlist
 WLIST_TOKEN - your token for wunderlist
 WLIST_ARN - your lambda arn
-`
+```
 
  * You have aws cli installed(sudo pip install awscli)
  * You have an AWS profile called bizob2828, `aws configure --profile bizob2828`, or change the profile name in package.json deploy script
