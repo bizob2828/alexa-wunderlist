@@ -1,31 +1,34 @@
-AddItem add {Item} to {List} list
-AddItem add {Item} to my {List} list
-AddItem add {Item} on my {List} list
-AddItem add {Item} on the {List} list
-AddItem add {Item} onto the {List} list
-AddItem add {Item} onto my {List} list
-AddItem add {Item} in my {List} list
-AddItem add {Item} on the {List} list
-AddItem add {Item} in the {List} list
-AddItem add {Item} onto the {List} list
-AddItem put {Item} on {List} list
-AddItem put {Item} on my {List} list
-AddItem put {Item} on the {List} list
-AddItem put {Item} onto the {List} list
-AddItem put {Item} onto my {List} list
-AddItem put {Item} in my {List} list
-AddItem put {Item} on the {List} list
-AddItem put {Item} in the {List} list
-AddItem put {Item} onto the {List} list
-ListContents whats on my {List} list
-ListContents whats in my {List} list
-ListContents whats in the {List} list
-ListContents whats left on {List} list
-ListContents whats left on the {List} list
-ListContents read out my {List} list
-ListContents read out the contents of my {List} list
-ListContents tell me whats on my {List} list
-ListContents tell me the list of things on my {List} list
+AddItem add {eggs|Item} to {grocery|List} list
+AddItem add {two words|Item} to {grocery|List} list
+AddItem add {add three words|Item} to {grocery|List} list
+AddItem add {let's try four words|Item} to {grocery|List} list
+AddItem add {eggs|Item} to my {grocery|List} list
+AddItem add {eggs|Item} on my {grocery|List} list
+AddItem add {eggs|Item} on the {grocery|List} list
+AddItem add {eggs|Item} onto the {grocery|List} list
+AddItem add {eggs|Item} onto my {grocery|List}} list
+AddItem add {eggs|Item} in my {grocery|List} list
+AddItem add {eggs|Item} on the {grocery|List} list
+AddItem add {eggs|Item} in the {grocery|List} list
+AddItem add {eggs|Item} onto the {grocery|List} list
+AddItem put {eggs|Item} on {grocery|List} list
+AddItem put {eggs|Item} on my {grocery|List} list
+AddItem put {eggs|Item} on the {grocery|List} list
+AddItem put {eggs|Item} onto the {grocery|List} list
+AddItem put {eggs|Item} onto my {grocery|List} list
+AddItem put {eggs|Item} in my {grocery|List} list
+AddItem put {eggs|Item}} on the {grocery|List} list
+AddItem put {eggs|Item} in the {grocery|List} list
+AddItem put {eggs|Item} onto the {grocery|List} list
+ListContents whats on my {grocery|List} list
+ListContents whats in my {grocery|List} list
+ListContents whats in the {grocery|List} list
+ListContents whats left on {grocery|List} list
+ListContents whats left on the {grocery|List} list
+ListContents read out my {grocery|List} list
+ListContents read out the contents of my {grocery|List} list
+ListContents tell me whats on my {grocery|List} list
+ListContents tell me the list of things on my {grocery|List} list
 GetLists tell me what lists I have
 GetLists to tell me what lists I have
 GetLists what lists I have

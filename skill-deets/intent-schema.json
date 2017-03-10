@@ -5,11 +5,11 @@
       "slots": [
         {
           "name": "Item",
-          "type": "SHOPPING_LIST_ITEMS"
+          "type": "AMAZON.LITERAL"
         },
         {
           "name": "List",
-          "type": "LISTS"
+          "type": "AMAZON.LITERAL"
         }
       ]
     },
@@ -18,7 +18,7 @@
       "slots": [
         {
           "name": "List",
-          "type": "LISTS"
+          "type": "AMAZON.LITERAL"
         }
       ]
     },
