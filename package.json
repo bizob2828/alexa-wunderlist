@@ -19,11 +19,7 @@
   "dependencies": {
     "alexa-sdk": "^1.0.7",
     "bluebird": "^3.4.7",
-    "lodash": "^4.17.4",
-    "request": "^2.79.0"
-  },
-  "scripts": {
-    "zip": "zip -r alexa.zip index.js package.json node_modules",
-    "deploy": "aws lambda update-function-code --function-name=$WLIST_ARN --zip-file=fileb://alexa.zip --profile bizob2828"
+    "lodash": "^4.17.10",
+    "request": "^2.87.0"
   }
 }

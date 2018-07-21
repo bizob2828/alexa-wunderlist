@@ -15,17 +15,16 @@ WLIST_ARN - your lambda arn
 
  * You have aws cli installed(`sudo pip install awscli`)
  * You have an AWS profile called bizob2828, `aws configure --profile bizob2828`, or change the profile name in package.json deploy script
- * You have zip installed
  * You have created an Alexa skill with the skill-deets and linked to a lambda function
 
 ## Deployment
-You can update your code as you go:
+Serverless is used. To deploy complete package:
 
-`npm run zip`
+`serverless deploy`
 
-To deploy updates to Lambda:
+To deploy just updates to function:
 
-`npm run deploy`
+`serverless deploy function -f AlexaWunderlistServerless`
 
 ## Commands
 You can get all lists by saying
