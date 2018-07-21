@@ -12,7 +12,7 @@ const apiBase = 'https://a.wunderlist.com/api/v1';
  * @param method {String} POST, PUT, DELETE, defaults to GET
  * @param data {Object} post data for POST/PUT/DELETE requests
  */
-function makeRequest(uri, method, data) {
+function makeRequest(uri, method = 'GET', data) {
   let opts = {
     url: `${apiBase}/${uri}`,
     headers: {
@@ -20,7 +20,7 @@ function makeRequest(uri, method, data) {
       'X-Client-ID': process.env.WLIST_ID,
       'Content-Type': 'application/json'
     },
-    method: method || 'GET'
+    method
   };
 
   if(data) {

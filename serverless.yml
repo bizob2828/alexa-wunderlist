@@ -1,0 +1,16 @@
+service: wunderlist
+provider:
+  name: aws
+  runtime: nodejs8.10
+  memorySize: 128
+  timeout: 30
+  profile: bizob2828
+  region: us-east-1
+  environment:
+    WLIST_TOKEN: ${env:WLIST_TOKEN}
+    WLIST_ID: ${env:WLIST_ID}
+functions:
+  AlexaWunderlistServerless:
+    handler: index.handler
+    events:
+      - alexaSkill: ${env:ALEXA_SKILL_ID}
