@@ -19,7 +19,7 @@
   "dependencies": {
     "alexa-sdk": "^1.0.7",
     "bluebird": "^3.4.7",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "request": "^2.87.0"
   }
 }
